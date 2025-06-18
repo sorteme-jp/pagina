@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Figuras - Mundo Coleccionista</title>
+  <link rel="stylesheet" href="inicio.css">
+  <style>
+    .subtitulo {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #004aad;
+      font-size: 2em;
+    }
+
+    .menu-subpaginas {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .enlace-subpagina {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .tarjeta-sub {
+      background-color: #f8f8f8;
+      border-radius: 12px;
+      width: 300px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .tarjeta-sub:hover {
+      transform: scale(1.05);
+    }
+
+    .tarjeta-sub img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .tarjeta-sub h3 {
+      background-color: #004aad;
+      color: white;
+      padding: 15px 0;
+      font-size: 1.3em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Menú de navegación -->
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="figuras.html">Figuras</a>
+    <a href="nosotros.html">Nosotros</a>
+  </nav>
+
+  <div class="contenedor">
+    <h1 class="subtitulo">Explora nuestras colecciones</h1>
+
+    <div class="menu-subpaginas">
+      <a href="anime.html" class="enlace-subpagina">
+        <div class="tarjeta-sub">
+          <img src="anime.jpg" alt="Subpágina Anime">
+          <h3>Figuras de Anime</h3>
+        </div>
+      </a>
+      <a href="culturapop.html" class="enlace-subpagina">
+        <div class="tarjeta-sub">
+          <img src="culturapop.png" alt="Subpágina Cultura Pop">
+          <h3>Cultura Pop</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
+

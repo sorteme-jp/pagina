@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Anime - Mundo Coleccionista</title>
+  <link rel="stylesheet" href="inicio.css" />
+  <style>
+    .titulo-seccion {
+      text-align: center;
+      color: #e60073;
+      margin: 40px 0 20px;
+      font-size: 2.2em;
+    }
+
+    .descripcion {
+      text-align: center;
+      color: #555;
+      font-size: 1.1em;
+      margin-bottom: 40px;
+    }
+
+    .galeria-pop {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .tarjeta-pop {
+      background-color: #fff0f6;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .tarjeta-pop:hover {
+      transform: scale(1.05);
+    }
+
+    .tarjeta-pop img {
+      width: 100%;
+      height: 450px;
+      object-fit: cover;
+    }
+
+    .tarjeta-pop h3 {
+      color: #c2185b;
+      margin: 15px 0 5px;
+    }
+
+    .tarjeta-pop p {
+      color: #555;
+      font-size: 0.95em;
+      padding: 0 15px;
+    }
+
+    .precio {
+      font-weight: bold;
+      color: #007b5e;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Menú de navegación -->
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="figuras.html">Figuras</a>
+    <a href="nosotros.html">Nosotros</a>
+  </nav>
+
+  <div class="contenedor">
+    <h1 class="titulo-seccion">Figuras de Anime</h1>
+    <p class="descripcion">Descubre nuestras figuras de colección inspiradas en los animes más populares.</p>
+
+    <div class="galeria-pop">
+      <div class="tarjeta-pop">
+        <img src="Img_Figura1.jfif" alt="Figura Zenitsu" />
+        <h3>Zenitsu - Kimetsu no Yaiba</h3>
+        <p>Figura detallada en pose de combate. Ideal para fanáticos del rayo veloz.</p>
+        <p class="precio">COP 44.990</p>
+      </div>
+
+      <div class="tarjeta-pop">
+        <img src="Img_Figura2.jfif" alt="Figura Law" />
+        <h3>Law - One Piece</h3>
+        <p>Figura de Trafalgar D. Water Law con su espada y atuendo característico.</p>
+        <p class="precio">COP 55.990</p>
+      </div>
+
+      <div class="tarjeta-pop">
+        <img src="Img_Figura3.jfif" alt="Figura Rem" />
+        <h3>Rem - Re:Zero</h3>
+        <p>Figura de la maid favorita con expresión tierna y base temática.</p>
+        <p class="precio">COP 54.990</p>
+      </div>
+
+      <div class="tarjeta-pop">
+        <img src="Img_Figura4.jfif" alt="Figura Frieren" />
+        <h3>Frieren - Beyond Journey's End</h3>
+        <p>Figura mágica con vestimenta detallada y bastón encantado.</p>
+        <p class="precio">COP 60.990</p>
+      </div>
+
+      <div class="tarjeta-pop">
+        <img src="Img_Figura5.jfif" alt="Figura Candy" />
+        <h3>Candy Blanca - CandyCandy</h3>
+        <p>Figura nostálgica con vestido blanco y mirada soñadora.</p>
+        <p class="precio">COP 50.955</p>
+      </div>
+
+      <div class="tarjeta-pop">
+        <img src="Img_Figura6.jfif" alt="Figura Zoro" />
+        <h3>Zoro - One Piece</h3>
+        <p>Figura con triple espada y postura de combate legendaria.</p>
+        <p class="precio">COP 60.980</p>
+      </div>
+
+      <div class="tarjeta-pop">
+        <img src="Img_Figura7.jfif" alt="Figura Jotaro" />
+        <h3>Jotaro Kujo - JoJo's</h3>
+        <p>Figura musculosa con gorra icónica y pose desafiante.</p>
+        <p class="precio">COP 40.770</p>
+      </div>
+
+      <div class="tarjeta-pop">
+        <img src="Img_Figura1.jfif" alt="Figura extra" />
+        <h3>Ver más pronto</h3>
+        <p>Estamos agregando más figuras. ¡Espéralas muy pronto!</p>
+        <p class="precio">Próximamente</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
